@@ -15,6 +15,8 @@ export interface ToastConfig {
   providedIn: 'root',
 })
 export class EasytoastService {
+  //بيخزن حاله التويست علشان يظهرها او لا
+  //using BehaviorSubject to follow state if change
   private toastSubject = new BehaviorSubject<ToastConfig | null>(null);
   toastState = this.toastSubject.asObservable();
 
@@ -25,6 +27,7 @@ export class EasytoastService {
     }
   }
 
+  //make state null to disappear toast
   hide() {
     this.toastSubject.next(null);
   }
