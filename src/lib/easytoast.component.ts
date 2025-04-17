@@ -244,10 +244,10 @@ export class EasytoastComponent {
   }
 
   showToast() {
-    this.show = true; // تفعيل التوست يدويًا
+    this.show = true;   
   }
 
   close() {
-    this.show = false; // إخفاء التوست
+    this.show = false; 
   }
 }
