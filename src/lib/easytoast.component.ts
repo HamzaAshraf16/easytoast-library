@@ -233,7 +233,7 @@ export class EasytoastComponent {
   @Input() closeActionText: string = '';
   @Output() okAction = new EventEmitter<void>();
   @Output() closeAction = new EventEmitter<void>();
-  show: boolean = true;
+  show: boolean = false;
 
   getIconClass() {
     return {
@@ -243,5 +243,11 @@ export class EasytoastComponent {
     };
   }
 
-  
+  showToast() {
+    this.show = true; // تفعيل التوست يدويًا
+  }
+
+  close() {
+    this.show = false; // إخفاء التوست
+  }
 }

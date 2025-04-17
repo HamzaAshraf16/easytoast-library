@@ -1,6 +1,6 @@
 {
   "name": "@hamzaashraflib/easytoast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " Angular toast popup library",
   "keywords": ["angular", "toast", "notification", "standalone"],
   "license": "MIT",
