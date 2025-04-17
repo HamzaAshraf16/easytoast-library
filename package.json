@@ -1,0 +1,21 @@
+{
+  "name": "@hamzaashraflib/easytoast",
+  "version": "1.0.0",
+  "description": " Angular toast popup library",
+  "keywords": ["angular", "toast", "notification", "standalone"],
+  "license": "MIT",
+  "author": "Hamza Ashraf <hamzaashrafmostafa@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HamzaAshraf16/easytoast-library.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0",
+    "rxjs": "^7.8.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
